@@ -1,0 +1,70 @@
+body {
+    background-image: url(img/background.webp);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+li {
+    list-style-type: none;
+}
+
+#view {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#score-board {
+    background-color: #5e188280;
+    border-radius: 30px;
+    box-shadow: 30%;
+    height: 700px;
+    width: 300px;
+}
+
+#score-board>ul {
+    color: #ffffff;
+}
+
+#board {
+    align-content: center;
+    background-color: #0000007e;
+    border-radius: 30px;
+    box-shadow: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 700px;
+    height: 700px;
+}
+
+#board>button {
+    background-color: #5e188280;
+    border-color: #0000007e;
+    border-radius: 30px;
+    box-shadow: 30%;
+    width: 200px;
+    height: 200px;
+    max-width: 33%;
+    font-size: 10em;
+}
+
+#win-text, #loose-text {
+    visibility: hidden;
+}
